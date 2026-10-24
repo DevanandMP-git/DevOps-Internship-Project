@@ -1,0 +1,23 @@
+name: Week 3 CI Pipeline
+
+on:
+push:
+branches:
+- main
+
+jobs:
+build:
+runs-on: ubuntu-latest
+
+
+steps:
+  - name: Checkout Repository
+    uses: actions/checkout@v4
+
+  - name: Run System Information Script
+    run: |
+      chmod +x Module3/system-info.sh
+      ./Module3/system-info.sh
+
+  - name: CI Success Message
+    run: echo "DevOps CI Pipeline Successful"
