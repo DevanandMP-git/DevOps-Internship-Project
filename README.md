@@ -4,7 +4,7 @@ A hands-on DevOps project covering Linux, Git, web hosting, Bash scripting, and 
 
 ## CI Pipeline Status
 
-![CI Status](https://github.com/DevanandMP-git/DevOps-Final/actions/workflows/ci.yml/badge.svg)
+[![Week 3 CI Pipeline](https://github.com/DevanandMP-git/DevOps-Internship-Project/actions/workflows/ci.yml/badge.svg)](https://github.com/DevanandMP-git/DevOps-Internship-Project/actions/workflows/ci.yml)
 
 ## Project Modules
 
